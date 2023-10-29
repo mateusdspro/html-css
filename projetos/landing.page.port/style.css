@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+html::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    background:  black;
+}
+
+html::-webkit-scrollbar {
+    background-color: white;
+    border-radius: 5rem;
+}
+
+body {
+    background-color: black;
+}
+
+.background {
+    background: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    padding-top: 1.5ram;
+    align-items: center;
+}
+
+.logo {
+    width: 75px; 
+    height: auto;
+    margin-left: 5rem;
+    margin-right: 20rem;
+}
+
+.logo1 {
+    width: 235px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+ul li {
+    list-style: none;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+ul li a :hover{
+    text-transform: capitalize;
+    color: rgb;
+    border-bottom: solid 1px;
+}
+.icon {
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+hr {
+    border-bottom: solid 0.1px;
+    color: white;
+    margin-top: 15px;
+
+}
+
+.title {
+    margin-left: 5rem;
+    margin-top: 10rem;
+    
+}
+
+.title h1{
+    color: white;
+    font-size: 3.3rem;
+}
+
+.title p {
+    color: white;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.title button {
+    margin-top: 2rem;
+    background-color: #FFBD59;
+    color: black;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.title button: hover {
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
